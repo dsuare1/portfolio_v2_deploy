@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import traLandingPage from '../../assets/img/tra_landing_page.png';
-import seinfeldLandingPage from '../../assets/img/seinfeld_landing_page.png';
-import pickUpLandingPage from '../../assets/img/pickup_landing_page.png';
-import friendFinderLandingPage from '../../assets/img/friend_finder_landing_page.png';
+import traLandingPage from '../assets/img/tra_landing_page.png';
+import seinfeldLandingPage from '../assets/img/seinfeld_landing_page.png';
+import pickUpLandingPage from '../assets/img/pickup_landing_page.png';
+import friendFinderLandingPage from '../assets/img/friend_finder_landing_page.png';
 
 class Portfolio extends Component {
   render() {

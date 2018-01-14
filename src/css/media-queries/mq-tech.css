@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    #tech-container {
+        justify-content: space-evenly !important;
+    }
+
+    .tech-logo {
+        margin: 0;
+    }
+}

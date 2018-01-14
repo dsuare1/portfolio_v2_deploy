@@ -7,13 +7,13 @@ import Horizon from './components/Horizon';
 import Portfolio from './components/Portfolio';
 import Tech from './components/Tech';
 
-import '../css/style.css';
-import '../css/media-queries/mq-badge.css';
-import '../css/media-queries/mq-copy.css';
-import '../css/media-queries/mq-tech.css';
-import '../css/media-queries/mq-horizon.css';
+import './css/style.css';
+import './css/media-queries/mq-badge.css';
+import './css/media-queries/mq-copy.css';
+import './css/media-queries/mq-tech.css';
+import './css/media-queries/mq-horizon.css';
 
-import copy from '../assets/copy.json';
+import copy from './assets/copy.json';
 
 function createCopy(hash) {
   return Object.keys(hash).map((p, i) => {

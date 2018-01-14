@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import profilePic from '../../assets/img/profile_pic_small.png';
-import resumeIcon from '../../assets/img/resume_icon_white.png';
-import resume from '../../assets/files/derrick_kyle_suarez_resume_pdf.pdf';
+import profilePic from '../assets/img/profile_pic_small.png';
+import resumeIcon from '../assets/img/resume_icon_white.png';
+import resume from '../assets/files/derrick_kyle_suarez_resume_pdf.pdf';
 
 function copyToClipboard(value) {
   const p = document.createElement('textarea');

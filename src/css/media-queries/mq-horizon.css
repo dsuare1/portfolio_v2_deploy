@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    #horizon-container {
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .hover-item > h3 {
+        font-size: 0.85em;
+    }
+}

@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px) {
+    #badge-email {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 768px) {
+    #badge-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .badge-copy-container {
+        width: 100%;
+    }
+
+    #badge-name, #badge-email {
+        font-size: 1.5em;
+    }
+
+    #profile-pic {
+        height: 75px;
+        width: 75px;
+        z-index: 0;
+    }
+
+    #resume-icon {
+        display: none;
+    }
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    #copy-container {
+        padding: 1em 1em 0 1em;
+    }
+    
+    #person-copy-container > p {
+        font-size: .75em !important;
+    }
+
+    #developer-copy-container > p {
+        font-size: .75em !important;
+    }
+}
